@@ -8,7 +8,15 @@ public class MethodEx1 {
 	}//맴버 메소드
 	//void = return 타입이 없다 란 의미
 	
+	public static void star() {
+		System.out.println("********"); 
+		return;
+		
+	}
 	public static void main(String[] args) {
 		view();
+		star();
+		view();
+		star();	
 	}
 }
