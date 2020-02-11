@@ -2,7 +2,7 @@ package object;
 
 /* 
  * https://hongjinhyeon.tistory.com/25 참조
- *  - (private)     + (public)    # (protected)
+ *  - (private)     + (public)    # (protected) // ===>접근지정자라 부른다
  * 
  *  클래스명 : Person
  *  +name:String
