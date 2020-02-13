@@ -28,7 +28,7 @@ class Max{
 	private int a;
 	private int b;
 	
-	public Max() {
+	public Max() {		
 		Scanner sc=new Scanner(System.in);
 		System.out.print("Input a : ");
 		a=sc.nextInt();
