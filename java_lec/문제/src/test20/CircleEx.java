@@ -1,27 +1,27 @@
 package test20;
 /*
-[¹®Á¦20]¿øÀÇ ¹İÁö¸§À» ¹Ş¾Æ ³ĞÀÌ¸¦ °è»êÇÏ°í Ãâ·ÂÇÏ½Ã¿À
-(1)package¸íÀº test20·Î ÇÏ°í CircleEx.javaÆÄÀÏÀ» ÇÏ³ª ¸¸µé¾î¼­ 
-Å¬·¡½º¸¦ 2°³ Ãß°¡ÇÏ½Ã¿À
+[ë¬¸ì œ20]ì›ì˜ ë°˜ì§€ë¦„ì„ ë°›ì•„ ë„“ì´ë¥¼ ê³„ì‚°í•˜ê³  ì¶œë ¥í•˜ì‹œì˜¤
+(1)packageëª…ì€ test20ë¡œ í•˜ê³  CircleEx.javaíŒŒì¼ì„ í•˜ë‚˜ ë§Œë“¤ì–´ì„œ 
+í´ë˜ìŠ¤ë¥¼ 2ê°œ ì¶”ê°€í•˜ì‹œì˜¤
 
-(2)Å¬·¡½º¸í : Circle
+(2)í´ë˜ìŠ¤ëª… : Circle
 -r:int
 
 +Circle(r:int)
 +getSize():double
 
-(3) Å¬·¡½º¸í : CircleEx	
+(3) í´ë˜ìŠ¤ëª… : CircleEx	
 Circle ob=new Circle(10);
-System.out.println("¿øÀÇ³ĞÀÌ : " + ob.getSize());
+System.out.println("ì›ì˜ë„“ì´ : " + ob.getSize());
 
-(3)Ãâ·ÂÈ­¸é
-¹İÁö¸§ 10ÀÎ ¿øÀÇ ³ĞÀÌ´Â 314.16ÀÔ´Ï´Ù* 
+(3)ì¶œë ¥í™”ë©´
+ë°˜ì§€ë¦„ 10ì¸ ì›ì˜ ë„“ì´ëŠ” 314.16ì…ë‹ˆë‹¤* 
+
 */
-
 public class CircleEx {
 	
 	public static void main(String[] args) {
 		Circle ob=new Circle(10);
-		System.out.println("¿øÀÇ³ĞÀÌ : " + ob.getSize());
+		System.out.println("ì›ì˜ë„“ì´ : " + ob.getSize());
 	}
 }
