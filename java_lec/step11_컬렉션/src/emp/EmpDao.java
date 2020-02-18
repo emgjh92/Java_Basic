@@ -18,4 +18,12 @@ public class EmpDao {
 	public List<EmpVO> getEmpList() {
 		return list;
 	}
+	public EmpVO getEmp(String name){
+		for(EmpVO vo:list) {
+			if(vo.getEname().equals(name)){
+				return vo;
+				}
+			}
+		return null;
+	}
 }

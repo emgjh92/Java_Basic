@@ -14,5 +14,13 @@ public class EmpMain {
 		System.out.print("급여 : "+ob.getSalary()+"\n");
 		System.out.println("\n");
 		}
+	System.out.println("*****lee 사원  출력하기*****");
+	EmpVO vo=dao.getEmp("lee");
+	if(vo==null) {
+		System.out.println("찾는 사원이 없어요");
+	}else {
+		System.out.println(vo.getEname()+" "+vo.getDept()+
+				" "+vo.getSalary());
 	}
+}
 }
