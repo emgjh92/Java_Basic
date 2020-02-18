@@ -1,7 +1,7 @@
 # Java_Basic
 Java_Basic (java for starter) : this repo is just for self-practice and source saving
 
-Course period : 2020.02.04 ~ 2020.02.18
+Course period : 2020.02.04 ~ 2020.02.18 (
 
 https://docs.oracle.com/javase/8/docs/api/ ==> java api 참조 사이트
 
