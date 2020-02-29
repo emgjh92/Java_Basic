@@ -2,7 +2,8 @@ package P21;
 
 public class P21 {
 public static void main(String[] args) {
-	//21. 1~10000»çÀÌ¿¡ 8ÀÌ ¸î¹ø ³ª¿À´Â°¡?
+	//21.1~10000ì‚¬ì´ì— 8ì´ ëª‡ë²ˆ ë‚˜ì˜¤ëŠ”ê°€?
+	
 	int count=0;
 	
 	for(int i=1; i<10000; i++) {
